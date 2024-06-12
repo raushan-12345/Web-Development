@@ -1,0 +1,37 @@
+body{
+    margin: 45px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+.main-div{
+    height:500px;
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
+    background-color:peru;
+    display: inline-block;
+}
+.col1{
+    width: 50%;
+    height:100%;
+    background-image: url("https://images.news18.com/ibnlive/uploads/2021/08/sun-photo-16293134144x3.jpg?impolicy=website&width=640&height=480.jpg");
+    background-size: cover;
+    background-color: blue;
+    float: left;
+    object-fit:cover;
+}
+.col2{
+    width: 50%;
+    height:100%;
+    background-color: white;
+    text-align:justify;
+    float: right;
+}
+h1{
+    color: rgb(208, 43, 226);
+}
+button{
+    color:cornflowerblue;
+}
+
